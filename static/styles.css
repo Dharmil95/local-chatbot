@@ -1,0 +1,53 @@
+.chat-row {
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    max-width: 800px
+    }
+    
+    .row-reverse {
+    flex-direction: row-reverse;
+    }
+    
+    .chat-bubble {
+    border: 1px solid transperent;;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 0px 7px;
+    max-width: 80%
+    }
+    
+    .ai-bubble {
+        background: rgba(65, 71, 80, 0.822);
+        color: #ffffff;
+    }
+    
+    .human-bubble {
+    background: rgba(65, 71, 80, 0.822);
+    color: #ffffff;
+    }
+    
+    .btn {
+    margin-top: 164%;
+    background-color: #ffffff;
+    border: none;
+    color: black;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    max-width: 100%
+    }
+    
+    .btn:hover {
+    background-color: #f0f2f6;
+    border: 1px solid black;
+    }
+    
+    .container {
+    display: flex;
+    justify-content: center;
+    }
